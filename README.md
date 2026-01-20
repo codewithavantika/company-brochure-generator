@@ -3,8 +3,7 @@
 ## Overview
 This project is an AI-powered application that generates professional company brochures using a local Large Language Model (LLM) through Ollama.  
 Users provide basic company details, and the system automatically creates structured brochure content.
-
-This project demonstrates prompt engineering, API integration, local LLM usage, and JSON-based data handling.
+Demonstrates hands-on experience in prompt engineering, REST API integration, local LLM inference, and structured JSON data handling.
 
 ## Features
 - Accepts company name, industry, target audience, and tone as input
@@ -28,10 +27,12 @@ This project demonstrates prompt engineering, API integration, local LLM usage, 
    python app.py
 5. Enter company details when asked
 
+## Problem Statement
+Creating professional company brochures manually is time-consuming and repetitive. This project automates brochure generation using AI to produce structured and consistent content.
+
 ## Output
 - Brochure shown in terminal
 - JSON file saved in `sample_outputs/`
-
 Example file:
 sample_outputs/Demo_Company_brochure.json
 
@@ -42,6 +43,10 @@ sample_outputs/Demo_Company_brochure.json
 - JSON file handling
 - Git and GitHub workflow
 
+## Future Improvements
+- Add Streamlit-based UI for easier input and brochure preview
+- Enable PDF export of generated brochures
+   
 ## Author
 Avantika Gupta  
 GitHub: https://github.com/codewithavantika
